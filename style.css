@@ -156,7 +156,7 @@ input[type=checkbox]:checked + .checkbox {
 }
 .favorite_block{
     box-sizing: border-box; 
-    max-width: 480px;
+    min-width: 480px;
     background: #F8F8F8;
     height: auto;
     padding: 40px;
@@ -175,6 +175,8 @@ input[type=checkbox]:checked + .checkbox {
     background: #FFFFFF;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    box-sizing: border-box;
+    width: 400px;
 }
 .favorite_block .svg_block, .favorite_block .block_categ{
     background: #F8F8F8;
